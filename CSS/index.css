@@ -1,0 +1,132 @@
+.background {
+
+    background-color: white;
+    overflow: hidden;
+}
+
+img.BG {
+    height: 620px;
+    width: 550px;
+    position: absolute;
+    margin-left: 799px;
+    overflow: hidden;
+    
+}
+
+img.img-fluid {
+    max-width: 106px;
+    height: auto;
+    position: absolute;
+    margin-top: 73px;
+    margin-left: 130px;
+}
+
+h1.judul {
+    font-family: poppins;
+    position: absolute;
+    margin-top: 199px;
+    margin-left: 91px;
+}
+
+h1.anak {
+    font-family: poppins;
+    position: absolute;
+    margin-top: 246px;
+    margin-left: 90px;
+}
+
+p.isi {
+    position: absolute;
+    margin-top: 299px;
+    font-size: 15px;
+    margin-left: 93px;
+    color: rgba(128, 128, 128, 0.596);
+}
+
+p.isi1 {
+    position: absolute;
+    margin-top: 323px;
+    margin-left: 93px;
+    color: rgba(128, 128, 128, 0.562);
+}
+
+ul#check {
+    list-style: none;
+    position: absolute;
+    margin-top: 354px;
+    margin-left: 65px;
+    display: none;
+    
+}
+
+li.\33 {
+    position: absolute;
+    margin-top: 17px;
+    
+}
+
+li.\32 {
+    margin-top: 18px;
+}
+
+.pelengkap {
+    font-size: 14px;
+    font-weight: 500;
+    margin-top: -63px;
+    margin-left: 38px;
+}
+
+.pelengkap1 {
+    font-size: 14px;
+    font-weight: 500;
+    margin-left: 40px;
+    padding-top: 7px;
+}
+
+.pelengkap2.judul {
+    font-size: 14px;
+    font-weight: 500;
+    padding-top: 3px;
+    padding-left: 40px;
+}
+
+div h4 {
+    width: 200px;
+    height: 30px;
+    font-size: 14px;
+    position: absolute;
+    margin-top: 500px;
+    margin-left: 134px;
+    border: 1px solid black;
+    text-align: center;
+    border-radius: 4px;
+    background-color: black;
+    text-decoration-line: none;
+    display: block;
+    border-style: none;
+}
+
+div h4:hover{
+    display: none;
+    transition: 0,6s ease;
+    color: red;
+    border-style: groove;
+}
+
+ .with {
+     padding-top: 5px;
+     color: rgb(253, 253, 253);
+ }
+
+ div h4 :hover{
+     color: blue;
+     transition: all 0.3s;
+     content: attr(data-text);
+
+     
+ }
+
+ div h4 :hover , div h4  :focus {
+     outline :none;
+     text-shadow :none;
+ }

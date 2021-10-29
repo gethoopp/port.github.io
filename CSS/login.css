@@ -1,0 +1,251 @@
+
+
+* {
+    outline: none;
+}
+
+html , body {
+   
+    background-color: whitesmoke;
+    overflow-x: hidden;
+}
+
+.container-responsive {
+    border: 1px solid #e9ecef;
+    position: absolute;
+    margin-top: 105px;
+    margin-left: 229px;
+    flex-wrap: wrap;
+    height: 298px;
+    width: 987px;
+    background-color: #664d0313;
+    border-radius: 7px;
+}
+
+
+.nav-bar {
+    display: flex;
+    margin-left: 80px;
+}
+
+h6.nav-menu {
+    position: absolute;
+    margin-top: 42px;
+    margin-left: 218px;
+    cursor: pointer;
+    color: black;
+    text-decoration-line: none;
+    display: inline-block;
+    
+}
+
+h6.nav-menu::after{
+    content: '';
+    display: block;
+    height: 0;
+    width: 100%;
+    background: transparent;
+    transition: height .5s ease, background-color .5s ease;
+}
+
+h6.nav-menu:hover:after {
+    height: 3px;
+    background: #a03616;
+
+}
+
+img.menu2 {
+    position: absolute;
+    margin-top: 44px;
+    margin-left: 126px;
+    height: 17px;
+    
+}
+
+h6.menu1 {
+    position: absolute;
+    margin-top: 44px;
+    padding-top: 4px;
+    padding-left: 2px;
+    margin-left: 997px;
+    cursor: pointer;
+    text-decoration-line: none;
+    border: 1px solid #3498db;
+    background: none;
+    width: 55px;
+    height: 40px;
+    transition: 0.8s all linear;
+    overflow: hidden;
+    color:rgb(0, 0, 0);
+}
+
+
+
+h6.menu1::before{
+    content: "";
+    position:absolute;
+    left:0;
+    height: 0%;
+    width:100%;
+    background:#3498db;
+    z-index: -1;
+    transition: 0.8s all ease-in-out;
+   
+  
+}
+h6.menu1:hover:before{
+    height: 100%;
+}
+
+
+h6::before{
+    top: 0;
+    border-radius:  0 0 100% 5% ;
+}
+
+
+
+
+
+
+
+h1.judul {
+    position: absolute;
+    font-family: poppins;
+    font-size: 27px;
+    margin-top: 59px;
+    margin-left: 87px;
+}
+
+p.content {
+    padding-top: 91px;
+    margin-left: 97px;
+    font-size: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+p.content1 {
+    font-size: 15px;
+    position: absolute;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: -16px;
+    margin-left: 97px;
+}
+
+form {
+    position: absolute;
+    margin-top: 253px;
+    margin-left: 327px;
+}
+
+input.tombol {
+    height: 43px;
+    width: 74px;
+    background-color: black;
+    color: white;
+    border-radius: 9px;
+}
+
+
+
+
+input.search {
+    height: 41px;
+    border: 2px solid grey;
+}
+
+
+section.box {
+    position: absolute;
+    margin-top: 475px;
+    margin-left: 229px;
+    border: 1px solid #2125295c;
+    border-radius:10px;
+    height: 343px;
+    width: 350px;
+}
+
+img.mount {
+    position: absolute;
+    border-radius: 12px 12px;
+    width: 336px;
+    margin-left: 5px;
+    margin-top: 9px;
+}
+
+h5.text {
+    position: absolute;
+    margin-top: 214px;
+    margin-left: 15px;
+    font-family: poppins;
+}
+
+
+button.tombol {
+    position: absolute;
+    margin-top: 288px;
+    border-color: blue;
+    margin-left: 114px;
+    border-radius: 14px;
+    transition: 0.4s all ease-in;
+    width: 100px;
+    
+}
+
+button.tombol:hover {
+    color: tomato;
+    width: 200px;
+
+    
+
+}
+
+section.box1 {
+    position: absolute;
+    margin-top: 475px;
+    margin-left: 626px;
+    border: 1px solid #2125295c;
+    border-radius:10px;
+    height: 343px;
+    width: 339px;
+}
+
+button.tombo2 {
+    position: absolute;
+    border-color: blue;
+    margin-top: 305px;
+    margin-left: 94px;
+    background-color: none;
+    transition: 0.8s all linear;
+    border-radius: 14px;
+}
+
+button.tombo2:hover{
+    color: tomato;
+    
+   
+
+}
+
+h5.text1 {
+    position: absolute;
+    margin-top: 210px;
+    margin-left: 20px;
+    font-family: poppins;
+}
+
+img.gunung {
+    border-radius: 20px 20px 20px;
+    width: 321px;
+    position: absolute;
+    margin-top: 7px;
+    margin-left: 8px;
+    height: 189px;
+}
+
+p.isi {
+    position: absolute;
+    margin-top: 238px;
+    margin-left: 10px;
+}
